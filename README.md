@@ -1,6 +1,6 @@
 [![Gitter chat](https://img.shields.io/badge/gitter-join%20chat-brightgreen.svg)](https://gitter.im/CiscoSecurity/AMP-for-Endpoints "Gitter chat")
 
-### AMP for Endpoints pagination
+### AMP for Endpoints pagination:
 
 This script has the basic logic required for handling pagination in the AMP for Endpoints API. It simply prints the connector GUID and hostname to the console. It is using the default limit of 500, if you do not have more than 500 connectors in your environment no pagination will occur.
 
@@ -8,7 +8,7 @@ This script has the basic logic required for handling pagination in the AMP for 
 - client_id 
 - api_key
 
-### Usage
+### Usage:
 ```
 python 01_paginate.py
 ```
